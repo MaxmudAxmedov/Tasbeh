@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(7, 102, 46);
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count{
+    width: 350px;
+    height: 400px;
+    background-color: black;
+    border-radius: 26px;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transform: translateY(200px);
+    box-shadow: 5px 5px 15px 5px rgb(131, 130, 130);
+
+}
+.count:hover{
+    box-shadow: 8px 8px 15px 5px rgb(131, 130, 130);
+}
+.title{
+    display: block;
+    margin: 0;
+    color: #fff;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+.title span {
+    font-size: 22px;
+}
+.input{
+    width: 75%;
+    margin: 0 auto;
+    padding: 12px 8px;
+    border-radius: 8px;
+    border: 4px solid #e9e9e9;
+    background-color: #d3d3d3d3;
+    color: #000;
+    outline: none;
+    font-size: 35px;
+    text-align: right;
+}
+
+.box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.resit-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #000;
+    box-shadow: 0px 0px 8px 5px #ccc;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+.resit-btn::after{
+    content: 'RESIT';
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: -10px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+.led-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #000;
+    box-shadow: 0px 0px 8px 5px #ccc;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+.led-btn::after{
+    content: 'LED';
+    position: absolute;
+    top: -20px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+.count-btn{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #000;
+    box-shadow: 0px 0px 8px 5px #ccc;
+    border: none;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.count-btn::after{
+    content: 'COUNT';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.gradient{
+    background-image: linear-gradient(to left, #fff, #018dff);
+}
